@@ -1,0 +1,97 @@
+/* Horizontal Navigation */
+#horizontal-navigation {
+	width: 400px;
+	float: left;
+	position:relative;
+	left:10px;
+	top:150px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-size: 1.2em;
+}
+
+
+/* CSS for each Parent Item */
+#horizontal-navigation li
+{
+	clear: both;
+	height: 2em;
+}
+
+#horizontal-navigation li a
+{
+	float: left;
+	display: block;
+	padding: 4px;
+	text-decoration: none;
+	color: #666;
+	text-transform: uppercase;
+	margin-bottom: 5px;
+	margin-right: 10px;
+}
+
+/* 
+Change background color and font color 
+of parent items when mouse hover 
+*/
+#horizontal-navigation li:hover a,
+#horizontal-navigation li a:hover
+{
+	background: #999;
+	color: #fff;	
+}
+
+
+
+
+ 
+Applie to group of Child Items
+Each Child Item will be invisible by default
+*/
+#horizontal-navigation ul {display: none;}
+
+/* Each Child Item will be visible if mouse hover */
+#horizontal-navigation li:hover ul {display: block;}
+
+#horizontal-navigation ul
+{
+	list-style: none;
+	float: left;
+	margin: 0;
+	padding: 4px 8px;	
+}
+
+#horizontal-navigation ul li
+{
+	float: left;
+	clear: none;
+	margin: 0;
+	padding: 0;
+	width: auto;
+	height: auto;
+	color: #999;
+}
+
+
+/* 
+Reset and re style 
+link of each child item
+*/
+#horizontal-navigation li:hover ul li a,
+#horizontal-navigation ul li a
+{
+	display: inline;
+	padding: 0 6px 0 0;
+	float: none;
+	text-transform: lowercase;
+	color: #999;
+	background: none;
+}
+
+#horizontal-navigation li:hover ul li a:hover,
+#horizontal-navigation ul li a:hover
+{
+	background: none;
+	color: #000;
+}
