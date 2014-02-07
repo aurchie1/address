@@ -7,6 +7,12 @@
       $_SESSION['user_id'] = $_COOKIE['user_id'];
       $_SESSION['username'] = $_COOKIE['username'];
     }
+    
+    else{
+    	echo "Session Vars not set! - please log in.";
+    }
+ // $_SESSION['user_id'] = 23;
+   // echo $_SESSION['user_id'];
   }
 ?>
 
