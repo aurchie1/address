@@ -1,0 +1,4 @@
+192.168.0.35 - - [07/Feb/2014:17:08:06 -0700] "GET / HTTP/1.1" 200 1083 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.107 Safari/537.36"
+192.168.0.35 - - [07/Feb/2014:17:08:06 -0700] "GET /style/style.css HTTP/1.1" 200 606 "http://address.local/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.107 Safari/537.36"
+192.168.0.35 - - [07/Feb/2014:17:08:06 -0700] "GET /style/headerstyle.css HTTP/1.1" 200 1183 "http://address.local/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.107 Safari/537.36"
+192.168.0.35 - - [07/Feb/2014:17:08:07 -0700] "GET /favicon.ico HTTP/1.1" 404 498 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.107 Safari/537.36"
